@@ -1,0 +1,22 @@
+---
+title: "Segmentation Comparison"
+author: "Tim C."
+date: "7/14/2023"
+output: html_document
+---
+
+```{r}
+# laod packages
+library(tidyverse)
+library(reticulate)
+```
+
+```{r}
+# setup python
+use_python("/opt/anaconda3/bin/python")
+
+```
+
+```{python}
+import pickle
+```
